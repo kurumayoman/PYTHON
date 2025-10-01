@@ -1,0 +1,22 @@
+name1=input("enter your name in capital:")
+name2=input("enter your :) name:")
+Bothnames=name1+name2
+print(Bothnames)
+small_letter=Bothnames.lower()
+t=small_letter.count('t')
+r=small_letter.count('r')
+u=small_letter.count('u')
+e=small_letter.count('e')
+true=t+u+r+e
+l=small_letter.count('l')
+o=small_letter.count('o')
+v=small_letter.count('v')
+e=small_letter.count('e')
+love=l+o+v+e
+lovescore=int(str(true)+str(love))
+if lovescore<10 or lovescore>90:
+    print("You are made for each order")
+elif lovescore<=40 or lovescore>90:
+    print("You are very lucky to have your partner")
+else:
+    print("You are the Unique couple in the world")
