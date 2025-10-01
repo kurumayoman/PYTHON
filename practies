@@ -1,0 +1,8 @@
+name1=input("enter your name in capital:")
+name2=input("enter your :) name:")
+Bothnames=name1+name2
+print(Bothnames)
+small_letter=Bothnames.lower()
+print(small_letter)
+c_letter=Bothnames.upper()
+print(c_letter)
