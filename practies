@@ -32,3 +32,18 @@ elif lovescore<=40 or lovescore>90:
     print("You are very lucky to have your partner")
 else:
     print("You are the Unique couple in the world")
+
+
+
+list=[1,2,3,4,5,6,7,8,9,10,1,2,3,4,5,6,7,8,9,10]
+k=set(list)
+print(k)
+k.add(12)
+k.add(12)
+print(k)
+
+
+dict={
+    "model":"1st model",
+    
+}
